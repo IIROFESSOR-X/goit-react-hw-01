@@ -1,0 +1,50 @@
+.container {
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 2px solid gray;
+  overflow: hidden;
+  width: 400px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  margin-top: 8px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(58, 57, 57);
+}
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.tag {
+  font-size: 24px;
+}
+.location {
+  font-size: 24px;
+}
+.stats {
+  background-color: rgb(218, 222, 226);
+  list-style-type: none;
+  display: flex;
+}
+.listItem {
+  padding: 16px 8px;
+  display: flex;
+  flex: 1;
+  border: 1px solid gray;
+  flex-direction: column;
+  width: calc(100% / 3);
+}
+.listTitle {
+  font-size: 18px;
+}
+.amount {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
