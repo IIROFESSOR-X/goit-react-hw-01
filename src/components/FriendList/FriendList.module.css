@@ -1,16 +1,9 @@
-.friendList {
+.friend {
   display: flex;
-  list-style-type: none;
-  margin-top: 14px;
-  width: 400px;
+  padding-top: 40px;
+  width: 700px;
+  column-gap: 15px;
 }
-.item {
-  margin-right: 10px;
-  border: 2px solid black;
-  border-radius: 4px;
-  box-sizing: border-box;
-width: 20%;
-}
-.item:last-child {
-  margin-right: 0;
+.items {
+  width: calc((100% - 60px) / 5);
 }
